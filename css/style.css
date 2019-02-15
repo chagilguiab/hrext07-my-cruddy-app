@@ -1,7 +1,26 @@
 body {
   display: flex;
   justify-content: center;
+  background-color: lightblue;
 }
+
+button {
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 5px 12px;
+  background-color: lavender;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 5px;
+  padding: 15px;
+}
+
 .container-main {
   display: flex;
   justify-content: center;
@@ -10,7 +29,26 @@ body {
 
 
 .container-data {
-  display: flex;
-  justify-content: center;
+  display:flex;
   flex-direction: column;
+  margin: 5px;
+  padding: 30px;
+  border-radius: 25px;
+  background-color: teal;
+  padding: 1em;
+  position: relative;
+  box-shadow: 0 5px 25px 0;
+  font-size: 20px;
+}
+
+.display-data-item {
+  display:inline-block;
+  margin: 5px;
+  padding: 30px;
+  border-radius: 25px;
+  background-color: lightblue;
+  padding: 1em;
+  position: relative;
+  box-shadow: 0 5px 25px 0;
+  font-size: 20px;
 }
